@@ -1,0 +1,4 @@
+{
+    string a=true?"OK":"null";
+    string b=false?"null":"WOW false!";
+}

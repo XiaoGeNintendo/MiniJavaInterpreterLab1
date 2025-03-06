@@ -1,0 +1,2 @@
+{  {      int b = 1;      string a = "lab1";
+  }  char d = 'r';  boolean c = true;}

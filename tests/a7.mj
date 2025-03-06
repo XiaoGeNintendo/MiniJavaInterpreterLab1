@@ -1,0 +1,3 @@
+{
+int result = 10;boolean a = false;boolean b = true;boolean sce = a and (b or (result++ == 10));
+}

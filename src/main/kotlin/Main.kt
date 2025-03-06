@@ -31,5 +31,5 @@ fun run(mjFile: File) {
     // Implement Your Own Visitor by extending MiniJavaParserBaseVisitor, then replace the following 'MiniJavaParserBaseVisitor<>'
     // For example: new YourVisitor().visit(pt);
     // Docs: https://box.nju.edu.cn/f/d4346b65c98743fe8208/
-    MiniJavaParserBaseVisitor<Any>().visit(pt)
+    MyVisitor().visit(pt)
 }

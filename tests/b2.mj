@@ -1,0 +1,11 @@
+{
+    char x='a';
+    char y='z';
+    char z=x*y;
+    int z2=x*y;
+    int what='a'*'z';
+    string s="asd";
+    string sm="as";
+    string t=sm+"d";
+    boolean equal=s==t;
+}

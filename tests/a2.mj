@@ -1,0 +1,8 @@
+{
+    int a = 1;
+    string b = "b";
+    {
+        string a = "scope a";
+        string b = "scope b";
+    }
+}
