@@ -1,3 +1,4 @@
 {
-    int x;
+    string s="asd";
+    boolean a=5>=5;
 }

@@ -263,7 +263,7 @@ class MyVisitor: AbstractParseTreeVisitor<MiniJavaObject>(), MiniJavaParserVisit
                 return a
             }
 
-            if(rawBop.endsWith("=") && rawBop !in arrayOf("==","!=")){
+            if(rawBop.endsWith("=") && rawBop !in arrayOf("==","!=",">=","<=")){
                 //assignment
                 assign=true
                 rawBop=rawBop.dropLast(1)
